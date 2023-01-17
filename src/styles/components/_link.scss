@@ -1,0 +1,18 @@
+.link {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 5px 10px;
+  border-bottom: 2px solid;
+  border-color: $transparent-color;
+  transition: all $transition-dur;
+  font-weight: 700;
+  &:hover {
+    color: $hover-color;
+    border-bottom: 2px solid $hover-color;
+    transition: all $transition-dur;
+  }
+  &_active {
+    color: $active-color;
+    border-bottom: 2px solid $active-color;
+  }
+}

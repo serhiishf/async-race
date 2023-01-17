@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+body {
+  color: $text-main-color;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+[class*='__container'] {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.main {
+  flex: 1 1 auto;
+}

@@ -1,0 +1,9 @@
+.btn {
+  font-size: 1rem;
+  background: $btn-background;
+  padding: 10px 15px;
+  border-radius: 6px;
+  &:hover {
+    background: $btn-background-hover;
+  }
+}

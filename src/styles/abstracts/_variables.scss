@@ -1,0 +1,16 @@
+$text-main-color: rgb(21, 20, 20);
+$text-second-color: #5d5c5c;
+$border-color: #202a25;
+$white-color: #fff;
+$hover-color: #c35446;
+$active-color: #eb6452;
+$btn-background: #eb6452;
+$btn-background-hover: #f76350;
+$main-color: #f1d627;
+$transparent-color: rgba(0, 0, 0, 0);
+
+$box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+$box-shadow-active: rgba(241, 214, 39, 0.6) 0px 1px 4px;
+$transition-dur: 300ms;
+$transition-foo: cubic-bezier(0.4, 0, 0.2, 1);
+$transition: $transition-dur $transition-foo;
